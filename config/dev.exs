@@ -2,9 +2,9 @@ use Mix.Config
 
 # Configure your database
 config :poc_uuid_relationship, PocUuidRelationship.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "poc_uuid_relationship_dev",
+  username: "sa",
+  password: "sa",
+  database: "uuid-test",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
